@@ -9,6 +9,56 @@
 }
 
 body{
-  padding-left: 50px;
-  padding-top: 50px;
+  font-family: 'garamond';
+  font-size: 10pt;
+  padding-left: 300px;
+  padding-top: 70px;
+  width: 500px;
+  color: #000033;
+}
+
+.title{
+  font-family: helvetica;
+  font-weight: lighter;
+  border-bottom: 1pt solid;
+}
+
+.number{
+  font-size: 10pt;
+  color: orange;
+  border: 1pt solid;
+}
+
+.number:hover{
+  background-color: orange;
+}
+
+.footnote{
+  bottom: 10px;
+  left: 10px;
+  display: none;
+  position: fixed;
+}
+
+.footnote.showme{
+  display: block;
+}
+
+.second{
+  transition: 2s;
+}
+
+.second.orange{
+  color: orange;
+  font-size: 12pt;
+  transition: 2s;
+}
+
+.thumbnail {
+  width: 300px;
+
+}
+
+.thumbnail.enlarge {
+  width: 620px;
 }
