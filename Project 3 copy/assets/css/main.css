@@ -1,0 +1,71 @@
+
+
+body{
+  font-family: 'garamond';
+  font-size: 10pt;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 300px;
+  color: #000033;
+  background: white;
+  border-top: 200px solid #000033;
+  border-left: 150px solid #000033;
+  border-bottom:600px solid #000033;
+  border-right: 200px solid #000033;
+
+}
+
+
+.author{
+  font-family: helvetica;
+  font-weight: 6pt;
+  border-bottom: 1pt solid;
+}
+
+.author:hover{
+  background-color: crimson;
+}
+
+.history{
+  font-family: helvetica;
+  font-weight: 6pt;
+  border-bottom: 1pt solid;
+}
+
+.history:hover{
+  background-color: crimson;
+}
+
+.books{
+  font-family: helvetica;
+  font-weight: 6pt;
+  border-bottom: 1pt solid;
+}
+
+.books:hover{
+  background-color: crimson;
+}
+
+.thumbnail{
+  width: 300px;
+  display: none;
+}
+
+.thumbnail.showme{
+  display: block;
+}
+
+.iframe {
+  width: 50vw;
+  height:100vw;
+  position: fixed;
+  top:0px;
+  right:0px;
+
+}
+
+.iframe iframe {
+    border: 0;
+}
