@@ -72,10 +72,5 @@ $(document).ready(function() {
           $('.thumbnail').removeClass('hideme');
         });
 
-setTimeout(function () {
-    $('.static').fadeOut('fast');
-  }, 1000); 
-
-
 
   });
