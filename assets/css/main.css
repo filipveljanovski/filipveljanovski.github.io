@@ -41,3 +41,10 @@ iframe{
 
 
   }
+
+  .mainscreen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(GIF2.gif);
+    background-size: cover;
+  }
