@@ -1,12 +1,5 @@
 $(document).ready(function() {
 
-        $('.author').mouseenter(function() {
-          $('.rhizome').addClass('showme');
-        });
-
-        $('.author').mouseleave(function() {
-          $('.rhizome').removeClass('showme');
-        });
 
         $(".1").on('click', function(){
              window.location = "Books.html";
