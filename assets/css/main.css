@@ -38,9 +38,40 @@ iframe{
     height: 100vh;
     background-image: url(GIF2.gif);
     background-size: cover;
+    z-index: 900;
+    position: absolute;
   }
 
-  .button{
-    background-color: white;
-    align-content: center;
+  a{
+      text-decoration: none;
+      font-family: helvetica;
+      font-weight: lighter;
+      background-color: white;
+      animation: pulsing;
+      z-index: 950;
+
   }
+
+  .pulsate {
+    text-decoration: none;
+    font-family: ARIAL;
+    font-weight: lighter;
+    font-size: 30px;
+    background-color: white;
+    animation: pulsing;
+    z-index: 950;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 2.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
