@@ -39,7 +39,7 @@ iframe{
     background-image: url(GIF2.gif);
     background-size: cover;
     z-index: 900;
-    position: absolute;
+    position: relative;
   }
 
   a{
@@ -49,6 +49,7 @@ iframe{
       background-color: white;
       animation: pulsing;
       z-index: 950;
+      position: absolute; top: 100px; left: 100px;
 
   }
 
@@ -58,11 +59,11 @@ iframe{
     font-weight: lighter;
     font-size: 30px;
     background-color: white;
-    animation: pulsing;
+    border: solid white 20px;
     z-index: 950;
-    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite;
-    opacity: 0.5;
+    opacity: 1;
 }
 @-webkit-keyframes pulsate {
     0% {
