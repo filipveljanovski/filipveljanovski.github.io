@@ -33,18 +33,14 @@ iframe{
       height: 100vh;
     }
 
-  .static{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(GIF.gif);
-    background-size: cover;
-
-
-  }
-
   .mainscreen{
     width: 100vw;
     height: 100vh;
     background-image: url(GIF2.gif);
     background-size: cover;
+  }
+
+  .button{
+    background-color: white;
+    align-content: center;
   }
