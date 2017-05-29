@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
         $('.author').mouseenter(function() {
-          $('.iframe1').addClass('showme');
+          $('.rhizome').addClass('showme');
         });
 
         $('.author').mouseleave(function() {
-          $('.iframe1').removeClass('showme');
+          $('.rhizome').removeClass('showme');
         });
 
         $(".1").on('click', function(){
