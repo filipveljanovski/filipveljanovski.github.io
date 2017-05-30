@@ -130,7 +130,7 @@ $(document).ready(function() {
       }
 
       // Draw White Stage
-  		context.fillStyle = "white" "opacity";
+  		context.fillStyle = "white";
   		context.fillRect(0, 0, snake.stage.width, snake.stage.height);
 
       // Snake Position
