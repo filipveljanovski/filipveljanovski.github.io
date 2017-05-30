@@ -76,3 +76,9 @@ iframe{
         opacity: 0.5;
     }
 }
+
+.pacman{
+  z-index: 950;
+  position: absolute; top: 200px; left: 100px;
+
+}
