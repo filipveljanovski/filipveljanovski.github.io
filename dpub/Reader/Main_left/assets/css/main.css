@@ -4,7 +4,8 @@ body{
   font-family: 'garamond';
   font-size: 10pt;
   color: #000019;
-  background: #000019;
+  background-image: url(GIF2.gif);
+  background-size: cover;
 }
 
 p{
@@ -15,7 +16,7 @@ p{
 
 .author{
   font-family: helvetica;
-  font-weight: 20pt;
+  font-weight: 6pt;
   border-bottom: 1pt solid;
 }
 
@@ -44,14 +45,28 @@ p{
   background-color: crimson;
 }
 
-.books{
-  font-family: helvetica;
-  font-weight: 6pt;
-  border-bottom: 1pt solid;
+  .books {
+    text-decoration: none;
+    font-family: ARIAL;
+    font-weight: lighter;
+    font-size: 30px;
+    background-color: white;
+    border: solid white 5px;
+    z-index: 950;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 1;
 }
-
-.books:hover{
-  background-color: crimson;
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 2.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }
 
 .thumbnail{
@@ -61,4 +76,16 @@ p{
 
 .thumbnail.showme{
   display: block;
+}
+
+.rhizome{
+  0% {
+      opacity: 0.5;
+  }
+  50% {
+      opacity: 2.0;
+  }
+  100% {
+      opacity: 0.5;
+  }
 }
