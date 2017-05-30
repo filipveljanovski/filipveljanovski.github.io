@@ -49,9 +49,9 @@ p{
     text-decoration: none;
     font-family: ARIAL;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 20px;
     background-color: white;
-    border: solid white 5px;
+    border: solid white 1px;
     z-index: 950;
     -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite;
