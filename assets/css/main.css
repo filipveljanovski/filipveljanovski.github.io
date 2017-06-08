@@ -88,7 +88,8 @@ body {
   font-family: helvetica;
 }
 canvas {
-  position: absolute; bottom: 2px; left: 110px;
+  position: absolute; bottom: 100px; left: 110px;
   z-index: 1000;
   background-image: url(snake.png);
+  border: 1px solid #000019;
 }
